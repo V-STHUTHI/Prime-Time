@@ -1,0 +1,177 @@
+/* Circadian Scheduler Styles */
+
+/* Custom Scrollbar for sleek UI */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animations */
+
+/* Pulsing energy wave */
+@keyframes brainwave {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+    filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.6));
+  }
+}
+.animate-brainwave {
+  animation: brainwave 2s infinite ease-in-out;
+}
+
+/* Day/Night Loading Transition */
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animate-orbit {
+  animation: orbit 10s infinite linear;
+}
+
+/* Bouncing coffee/tea cup */
+@keyframes coffee-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+.animate-coffee {
+  animation: coffee-bounce 1.5s infinite ease-in-out;
+}
+
+/* Steam floating up */
+@keyframes steam {
+  0% {
+    transform: translateY(0) scaleX(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-5px) scaleX(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-10px) scaleX(0.8);
+    opacity: 0;
+  }
+}
+.steam-line {
+  animation: steam 2s infinite linear;
+}
+.steam-line:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.steam-line:nth-child(3) {
+  animation-delay: 1.2s;
+}
+
+/* Sun ray expansion */
+@keyframes sun-rays {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.1); opacity: 1; }
+}
+.animate-sun-rays {
+  animation: sun-rays 3s infinite ease-in-out;
+}
+
+/* Moon star twinkling */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+.animate-twinkle {
+  animation: twinkle 1.5s infinite ease-in-out;
+}
+
+/* Shimmer effect for loaders */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.shimmer {
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Color codes for clock wheel sectors */
+.sector-sleep {
+  fill: #1e1b4b; /* Indigo 950 */
+  opacity: 0.85;
+}
+.sector-transition {
+  fill: #6366f1; /* Indigo 500 */
+  opacity: 0.75;
+}
+.sector-peak {
+  fill: #f59e0b; /* Amber 500 */
+  opacity: 0.85;
+}
+.sector-dip {
+  fill: #3b82f6; /* Blue 500 */
+  opacity: 0.6;
+}
+.sector-middle {
+  fill: #10b981; /* Emerald 500 */
+  opacity: 0.8;
+}
+.sector-winddown {
+  fill: #8b5cf6; /* Violet 500 */
+  opacity: 0.75;
+}
+.sector-open {
+  fill: #64748b; /* Slate 500 */
+  opacity: 0.45;
+}
+
+/* Smooth fade-in out for alerts */
+.fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Circular Circadian Gauge Center Ring */
+.gauge-center {
+  transition: all 0.3s ease;
+}
+.gauge-center:hover {
+  transform: scale(1.02);
+}
