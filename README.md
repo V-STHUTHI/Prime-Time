@@ -10,8 +10,9 @@ It provides customized task advice, sleep-debt warnings, and power-nap injection
 
 You can access the live, running applications directly on your phone or desktop:
 
-*   **💻 Website Preview (Tunnel)**: [https://f4ed3b6069d113.lhr.life](https://f4ed3b6069d113.lhr.life)
-*   **📱 Native Mobile App Preview (Tunnel)**: [https://9957c0c34fb4db.lhr.life](https://9957c0c34fb4db.lhr.life)
+*   **💻 Deployed Website (Permanent)**: [https://v-sthuthi.github.io/Prime-Time/](https://v-sthuthi.github.io/Prime-Time/)
+*   **💻 Website Preview (Temporary Tunnel)**: [https://7fae7d4d7cdf6c.lhr.life](https://7fae7d4d7cdf6c.lhr.life)
+*   **📱 Native Mobile App Preview (Temporary Tunnel)**: [https://a1f33d9f5c5510.lhr.life](https://a1f33d9f5c5510.lhr.life)
 
 ---
 
