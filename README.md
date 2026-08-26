@@ -11,7 +11,7 @@ It provides customized task advice, sleep-debt warnings, and power-nap injection
 You can access the live, running applications directly on your phone or desktop:
 
 *   **💻 Deployed Website (Vercel)**: [https://docs-inky-nu-55.vercel.app](https://docs-inky-nu-55.vercel.app)
-*   **📱 Native Mobile App Preview (Tunnel)**: [https://a1f33d9f5c5510.lhr.life](https://a1f33d9f5c5510.lhr.life)
+*   **📱 Mobile App Web Preview (Vercel)**: [https://dist-alpha-weld-11.vercel.app](https://dist-alpha-weld-11.vercel.app)
 
 ---
 
